@@ -1,0 +1,43 @@
+@import './base.css';
+#app {
+  text-align: center;
+}
+
+/* body {
+  font-family: "Roboto";
+} */
+
+.gameBoard {
+  display: inline-grid;
+  grid-gap: 1px;
+  padding: 1px;
+  border: solid 1px #000000;
+  margin: 0.5em;
+}
+
+.gameItem {
+  background-color: #e6e6e6;
+  width: 1em;
+  height: 1em;
+}
+
+.gameSnake {
+  background-color: rgb(0, 46, 116);
+}
+.gamePrize {
+  background-color: rgb(255, 115, 0);
+}
+.gameCrashed {
+  background-color: rgb(255, 0, 0);
+}
+
+.gameScore {
+  padding: 0.5em;
+}
+.gameActions {
+  padding: 0.5em;
+}
+
+.app-wrap {
+  display: inline-grid;
+}
